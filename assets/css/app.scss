@@ -1,0 +1,7 @@
+$primary: rgb(255, 109, 109);
+$secondary: lighten($primary,20%);
+@import "~bootstrap/scss/bootstrap";
+
+.container{
+    background-color: $secondary;
+}
